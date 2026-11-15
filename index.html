@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دستیار من - دانلود</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Tahoma, 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        p {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 18px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn-windows {
+            background: #0078D7;
+        }
+
+        .btn-windows:hover {
+            background: #005A9E;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 120, 215, 0.3);
+        }
+
+        .btn-samsung {
+            background: #1428A0;
+        }
+
+        .btn-samsung:hover {
+            background: #0D1B6E;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(20, 40, 160, 0.3);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #bdc3c7;
+            border-top: 1px solid #ecf0f1;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">🤖</div>
+        <h1>دستیار من</h1>
+        <p>برنامه مدیریت و اطلاعات سیستم<br>نسخه‌ای برای هر دستگاه شما</p>
+
+        <!-- دکمه ویندوز (به گیت‌هاب وصل است) -->
+        <a href="https://github.com/ahmdyhjtalh79-star/MyAssistant/releases/download/v9.3/MyAssistant.exe" class="btn btn-windows" target="_blank">
+            💻 دانلود نسخه کامپیوتر (ویندوز)
+        </a>
+
+        <!-- دکمه سامسونگ (فعلاً پیام میده) -->
+        <a href="#" class="btn btn-samsung" onclick="alert('نسخه اندروید به زودی در دسترس قرار می‌گیرد!')">
+            📱 دانلود نسخه سامسونگ (اندروید)
+        </a>
+
+        <div class="footer">
+            نسخه ۹.۳ | ساخته شده با پایتون
+        </div>
+    </div>
+
+</body>
+</html>
